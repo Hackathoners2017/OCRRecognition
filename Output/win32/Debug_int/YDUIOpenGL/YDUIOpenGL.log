@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/9/21 0:35:02。
+     1>项目“E:\Dorahacks\Src\YDCode\YDUIOpenGL\YDUIOpenGL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         I:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\ThirdParty\Opengl\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp".\..\..\Output\Win32\Debug_int\YDUIOpenGL/YDUIOpenGL.pch" /Fo".\..\..\Output\Win32\Debug_int\YDUIOpenGL/" /Fd".\..\..\Output\Win32\Debug_int\YDUIOpenGL/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         I:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\ThirdParty\Opengl\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\..\..\Output\Win32\Debug_int\YDUIOpenGL/YDUIOpenGL.pch" /Fo".\..\..\Output\Win32\Debug_int\YDUIOpenGL/" /Fd".\..\..\Output\Win32\Debug_int\YDUIOpenGL/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YDUIOpenGL.cpp
+         YDUIOpenGL.cpp
+     1>e:\dorahacks\src\ydcode\yduiopengl\yduiopengl.cpp(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         I:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Output\Win32\Debug_bin\YDUIOpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Output\Win32\Debug_lib /LIBPATH:..\..\ThirdParty\Opengl\lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\..\Output\Win32\Debug_bin\YDUIOpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Output\Win32\Debug_lib\YDUIOpenGL.lib" /MACHINE:X86 ..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.embed.manifest.res
+         .\..\..\Output\Win32\Debug_int\YDUIOpenGL/stdafx.obj
+         .\..\..\Output\Win32\Debug_int\YDUIOpenGL/YDUIOpenGL.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.embed.manifest" /manifest ..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         YDUIOpenGL.vcxproj -> E:\Dorahacks\Src\YDCode\YDUIOpenGL\..\..\Output\Win32\Debug_bin\YDUIOpenGL.exe
+       FinalizeBuildStatus:
+         正在删除文件“..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.unsuccessfulbuild”。
+         正在对“..\..\Output\Win32\Debug_int\YDUIOpenGL\YDUIOpenGL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Dorahacks\Src\YDCode\YDUIOpenGL\YDUIOpenGL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.34

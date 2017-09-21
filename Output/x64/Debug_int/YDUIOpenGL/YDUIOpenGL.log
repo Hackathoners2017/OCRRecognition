@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/9/21 0:58:01。
+     1>项目“E:\Dorahacks\Src\YDCode\YDUIOpenGL\YDUIOpenGL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“..\..\Output\x64\Debug_int\YDUIOpenGL\YDUIOpenGL.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         I:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Output\x64\Debug_bin\YDUIOpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Output\x64\Debug_lib /LIBPATH:..\..\ThirdParty\Opengl\lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\Output\x64\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\..\Output\x64\Debug_bin\YDUIOpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Output\x64\Debug_lib\YDUIOpenGL.lib" /MACHINE:X64 ..\..\Output\x64\Debug_int\YDUIOpenGL\YDUIOpenGL.exe.embed.manifest.res
+         .\..\..\Output\x64\Debug_int\YDUIOpenGL/stdafx.obj
+         .\..\..\Output\x64\Debug_int\YDUIOpenGL/YDUIOpenGL.obj
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutSwapBuffers，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glEnd，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glVertex3d，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glBegin，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glRotatef，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 gluLookAt，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 gluPerspective，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glLoadIdentity，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glMatrixMode，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glDepthFunc，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glClear，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 __imp_glEnable，该符号在函数 "void __cdecl myDisplay(void)" (?myDisplay@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutPostRedisplay，该符号在函数 "void __cdecl play(void)" (?play@@YAXXZ) 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutMainLoop，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutIdleFunc，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutDisplayFunc，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutCreateWindow，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutInitWindowSize，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutInitWindowPosition，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutInitDisplayMode，该符号在函数 main 中被引用
+     1>YDUIOpenGL.obj : error LNK2019: 无法解析的外部符号 glutInit，该符号在函数 main 中被引用
+     1>..\..\Output\x64\Debug_bin\YDUIOpenGL.exe : fatal error LNK1120: 21 个无法解析的外部命令
+     1>已完成生成项目“E:\Dorahacks\Src\YDCode\YDUIOpenGL\YDUIOpenGL.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
